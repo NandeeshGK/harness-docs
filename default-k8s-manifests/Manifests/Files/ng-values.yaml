@@ -1,7 +1,7 @@
 name: example
 replicas: 2
 
-image: <+artifact.image>
+image: <+artifacts.primary.image>
 # dockercfg: <+artifact.imagePullSecret>
 
 createNamespace: true
