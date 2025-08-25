@@ -21,4 +21,4 @@ env:
   secrets:
     key2: value2
 
-image: <+artifacts.primary.image>
+image: <+lastSuccessfulDeployed.tag>
